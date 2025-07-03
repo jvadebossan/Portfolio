@@ -35,7 +35,7 @@ export function Contact() {
       });
 
       if (response.ok) {
-        alert('Message sent successfully!');
+        alert('Thank you for your message! You will receive an update within 1 day.');
         setFormData({ name: '', email: '', subject: '', message: '' });
       } else {
         alert('Error sending message. Please try again.');
