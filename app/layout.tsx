@@ -87,13 +87,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <StructuredData />
-        <WebsiteStructuredData />
-        <OrganizationStructuredData />
-        {/* Uncomment and add your GA_MEASUREMENT_ID when ready */}
-        {/* <GoogleAnalytics GA_MEASUREMENT_ID="G-XXXXXXXXXX" /> */}
-      </head>
       <body>
         <ThemeProvider
           attribute="class"
@@ -101,6 +94,11 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <StructuredData />
+          <WebsiteStructuredData />
+          <OrganizationStructuredData />
+          {/* Uncomment and add your GA_MEASUREMENT_ID when ready */}
+          {/* <GoogleAnalytics GA_MEASUREMENT_ID="G-XXXXXXXXXX" /> */}
           {children}
         </ThemeProvider>
       </body>
