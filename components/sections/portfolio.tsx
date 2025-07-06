@@ -18,7 +18,7 @@ export function Portfolio() {
       title: "Engineer Portfolio",
       description:
         "Personal portfolio for a software and electrical engineer",
-      image: "https://media.discordapp.net/attachments/814662021383061535/1390182238099865751/image.png?ex=68675399&is=68660219&hm=cdcd4e0fa479894ec47141754d1e14b716726f2ab09e60969034a59c8be118ae&=&format=webp&quality=lossless&width=1663&height=810",
+      image: "https://cdn.discordapp.com/attachments/814662021383061535/1390182238099865751/image.png?ex=686a9f59&is=68694dd9&hm=50235c8da5134d45553fe1762c53184a40c31c404c9a7bb6ad2fe3fe2dc2f4c4",
       technologies: ["React.js", "Tailwind CSS", "SEO"],
       liveUrl: "https://ffschneider.netlify.app",
     },
@@ -26,7 +26,7 @@ export function Portfolio() {
       title: "Business Website",
       description:
         "Virtual reality business website with 3D models and interactive elements",
-      image: "https://media.discordapp.net/attachments/814662021383061535/1390182556091289703/image.png?ex=686753e5&is=68660265&hm=29c52fa1a873792ba88b625c88a34f84a67034c7fbd2886c6d3ed41c94eb7869&=&format=webp&quality=lossless&width=1669&height=810",
+      image: "https://cdn.discordapp.com/attachments/814662021383061535/1390182556091289703/image.png?ex=686a9fa5&is=68694e25&hm=240f5d6c766332fa5d11d37659e7081f5c996dde520bb494e7196d0fdb5e581a",
       technologies: ["React", "Three.js", "Tailwind CSS", "SEO", "3D Models"],
       liveUrl: "https://vysionvr.com",
     },
