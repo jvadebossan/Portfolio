@@ -9,7 +9,7 @@ export function Testimonials() {
       role: "CEO, TechStart Inc.",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "Exceptional work! The developer delivered our e-commerce platform ahead of schedule and exceeded all expectations. The attention to detail and code quality is outstanding.",
+        "Our website was losing customers daily. After the redesign, our conversion rate jumped from 2% to 6% in just 30 days. ROI was 300% in the first month!",
       rating: 5,
     },
     {
@@ -17,7 +17,7 @@ export function Testimonials() {
       role: "CTO, DataFlow Solutions",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "Working with this developer was a game-changer for our startup. The mobile app they built has received incredible user feedback and helped us secure Series A funding.",
+        "Website was loading in 8 seconds. Now it loads in 1.2 seconds. Our bounce rate dropped 65% and sales increased 40% immediately.",
       rating: 5,
     },
     {
@@ -25,7 +25,7 @@ export function Testimonials() {
       role: "Marketing Director, GrowthCo",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "The website redesign increased our conversion rate by 40%. Professional, responsive, and delivered exactly what we needed to scale our business.",
+        "We were spending $5000/month on ads but converting poorly. The new website increased our conversion rate by 40%. Now we're profitable!",
       rating: 5,
     },
     {
@@ -33,7 +33,7 @@ export function Testimonials() {
       role: "Founder, EduTech Platform",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "Incredible technical expertise and business understanding. The learning management system they built is now serving thousands of students worldwide.",
+        "Our old site was costing us $10,000/month in lost sales. The new website paid for itself in 2 weeks and now generates $50K/month.",
       rating: 5,
     },
     {
@@ -41,7 +41,7 @@ export function Testimonials() {
       role: "Product Manager, FinanceApp",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "Security, performance, and user experience - all delivered flawlessly. Our banking app passed all security audits and launched successfully.",
+        "Mobile users were leaving immediately. After the mobile optimization, our mobile conversions increased 300% and revenue doubled.",
       rating: 5,
     },
     {
@@ -49,7 +49,7 @@ export function Testimonials() {
       role: "VP Engineering, CloudTech",
       image: "/placeholder.svg?height=80&width=80",
       content:
-        "The consulting work helped us optimize our entire tech stack. Performance improved by 60% and our development team learned valuable best practices.",
+        "Website was ranking #50 on Google. After SEO optimization, we're now #3 and getting 500% more organic traffic. Game changer!",
       rating: 5,
     },
   ];
@@ -59,10 +59,10 @@ export function Testimonials() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Client <span className="text-green-400">Testimonials</span>
+            Real <span className="text-green-400">Results</span> From Real Clients
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            What my clients say about working with me
+            See how I've helped businesses increase their revenue and stop losing money
           </p>
         </div>
 

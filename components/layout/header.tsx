@@ -22,7 +22,7 @@ export function Header() {
     //{ href: "#about", label: "About" },
     { href: "#services", label: "Services" },
     { href: "#portfolio", label: "Portfolio" },
-    { href: "#testimonials", label: "Testimonials" },
+    // { href: "#testimonials", label: "Testimonials" },
     { href: "#contact", label: "Contact" },
   ];
 
@@ -37,7 +37,10 @@ export function Header() {
     >
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <div className="text-2xl font-bold text-green-400">{"<Jvad/>"}</div>
+          <div className="flex items-center space-x-2">
+            <img src="/logo.svg" alt="Jvad Logo" className="h-8 w-auto" />
+            <div className="text-2xl font-bold text-green-400">{"<Jvad/>"}</div>
+          </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
@@ -46,6 +49,16 @@ export function Header() {
                 key={item.href}
                 href={item.href}
                 className="text-foreground hover:text-green-400 transition-colors duration-200"
+                onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById(item.href.substring(1));
+                  if (element) {
+                    element.scrollIntoView({ 
+                      behavior: 'smooth',
+                      block: 'start'
+                    });
+                  }
+                }}
               >
                 {item.label}
               </a>
@@ -58,7 +71,16 @@ export function Header() {
               className="bg-green-500 hover:bg-green-600 text-black font-semibold"
               asChild
             >
-              <a href="#contact">
+              <a href="#contact" onClick={(e) => {
+                e.preventDefault();
+                const element = document.getElementById('contact');
+                if (element) {
+                  element.scrollIntoView({ 
+                    behavior: 'smooth',
+                    block: 'start'
+                  });
+                }
+              }}>
                 Hire Me
               </a>
             </Button>
@@ -82,15 +104,40 @@ export function Header() {
                   key={item.href}
                   href={item.href}
                   className="text-foreground hover:text-green-400 transition-colors duration-200"
-                  onClick={() => setIsMobileMenuOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.getElementById(item.href.substring(1));
+                    if (element) {
+                      element.scrollIntoView({ 
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
+                    }
+                    setIsMobileMenuOpen(false);
+                  }}
                 >
                   {item.label}
                 </a>
               ))}
               <div className="flex items-center space-x-4">
                 <ThemeToggle />
-                <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold">
-                  Hire Me
+                <Button 
+                  className="bg-green-500 hover:bg-green-600 text-black font-semibold"
+                  asChild
+                >
+                  <a href="#contact" onClick={(e) => {
+                    e.preventDefault();
+                    const element = document.getElementById('contact');
+                    if (element) {
+                      element.scrollIntoView({ 
+                        behavior: 'smooth',
+                        block: 'start'
+                      });
+                    }
+                    setIsMobileMenuOpen(false);
+                  }}>
+                    Hire Me
+                  </a>
                 </Button>
               </div>
             </div>

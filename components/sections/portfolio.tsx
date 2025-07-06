@@ -145,9 +145,9 @@ export function Portfolio() {
         </div>
 
         <div className="text-center mt-12">
-          <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-3">
+          {/* <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-3">
             View All Projects
-          </Button>
+          </Button> */}
         </div>
       </div>
     </section>

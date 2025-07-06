@@ -63,11 +63,11 @@ export function Contact() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Get In <span className="text-green-400">Touch</span>
+            Ready to <span className="text-green-400">Transform</span> Your Business?
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            Ready to start your project? Let's discuss how I can help bring your
-            ideas to life
+            Get your free website audit and discover how much money your slow website is costing you. 
+            Limited spots available this month.
           </p>
         </div>
 
@@ -76,7 +76,7 @@ export function Contact() {
             <Card className="bg-card border-green-500/20">
               <CardHeader>
                 <CardTitle className="text-card-foreground text-2xl">
-                  Send Me a Message
+                  Get Your Free Website Audit
                 </CardTitle>
               </CardHeader>
               <CardContent>
@@ -142,7 +142,7 @@ export function Contact() {
                     className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-3"
                   >
                     <Send className="mr-2" size={20} />
-                    Send Message
+                    Get My Free Audit
                   </Button>
                 </form>
               </CardContent>
@@ -189,15 +189,15 @@ export function Contact() {
             <Card className="bg-green-500/10 border-green-500/30">
               <CardContent className="p-6 text-center">
                 <h3 className="text-card-foreground font-semibold mb-2">
-                  Ready to Start?
+                  Limited Time Offer
                 </h3>
                 <p className="text-muted-foreground text-sm mb-4">
-                  Let's discuss your project and how I can help you achieve your
-                  goals.
+                  First 5 clients this month get 20% off + free SEO setup. 
+                  Don't miss out on this exclusive deal.
                 </p>
-                <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold w-full">
-                  <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20create%20my%20own%20Website!">
-                    Schedule a Call
+                <Button className="bg-green-500 hover:bg-green-600 text-black font-semibold w-full" asChild>
+                  <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20get%20the%2020%%20discount%20offer!">
+                    Claim My Discount
                   </a>
                 </Button>
               </CardContent>

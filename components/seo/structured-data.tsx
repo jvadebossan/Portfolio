@@ -77,7 +77,7 @@ export function OrganizationStructuredData() {
     "@type": "Organization",
     "name": "Jvad Development",
     "url": "https://jvad.dev",
-    "logo": "https://jvad.dev/logo.png",
+    "logo": "https://jvad.dev/logo.svg",
     "description": "Professional web development services specializing in React, Next.js, and modern web technologies",
     "contactPoint": {
       "@type": "ContactPoint",

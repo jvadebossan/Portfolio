@@ -45,22 +45,22 @@ export function Footer() {
             <h3 className="text-foreground font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-muted-foreground">
               <li>
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20create%20my%20own%20Website!" className="hover:text-green-400 transition-colors">
                   Web Development
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20create%20my%20own%20Website!" className="hover:text-green-400 transition-colors">
                   Mobile Apps
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20create%20my%20own%20Website!" className="hover:text-green-400 transition-colors">
                   E-commerce
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-green-400 transition-colors">
+                <a href="https://wa.me/5527998022214?text=Hi!%20I%20want%20to%20create%20my%20own%20Website!" className="hover:text-green-400 transition-colors">
                   Consulting
                 </a>
               </li>
@@ -78,7 +78,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-green-500/20 mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; 2024 Developer Portfolio. All rights reserved.</p>
+          <p>&copy; 2025 JVAD Portfolio. All rights reserved.</p>
         </div>
       </div>
     </footer>

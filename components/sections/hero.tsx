@@ -25,52 +25,76 @@ export function Hero() {
             className={`transition-all duration-1000 ${mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
               }`}
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              I Build <span className="text-green-400">Digital</span>{" "}
-              Experiences That Drive Results
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
+              Transform Your <span className="text-green-400">Business</span>{" "}
+              With High-Converting Websites
             </h1>
 
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              I create exceptional digital experiences that drive business
-              growth and user engagement
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto px-4">
+              Stop losing customers to slow, outdated websites. I build fast, 
+              modern websites that convert.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
               <Button
                 size="lg"
                 className="bg-green-500 hover:bg-green-600 text-black font-semibold px-8 py-3"
+                asChild
               >
-                <a href="#contact">
-                  Start Your Project
+                <a href="#contact" onClick={(e) => {
+                  e.preventDefault();
+                  const element = document.getElementById('contact');
+                  if (element) {
+                    element.scrollIntoView({ 
+                      behavior: 'smooth',
+                      block: 'start'
+                    });
+                  }
+                }}>
+                  Get Your Free Quote Now
+                  <ArrowRight className="ml-2" size={20} />
                 </a>
-                <ArrowRight className="ml-2" size={20} />
               </Button>
-              {/* <Button
+              <Button
                 size="lg"
                 variant="outline"
                 className="border-green-500 text-green-400 hover:bg-green-500 hover:text-black px-8 py-3 bg-transparent"
+                asChild
               >
-                <Download className="mr-2" size={20} />
-                Download CV
-              </Button> */}
+                <a href="#portfolio" onClick={e => {
+                  e.preventDefault();
+                  const el = document.getElementById('portfolio');
+                  if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                }}>
+                  See My Work
+                </a>
+              </Button>
             </div>
+            {/* <Button
+              size="lg"
+              variant="outline"
+              className="border-green-500 text-green-400 hover:bg-green-500 hover:text-black px-8 py-3 bg-transparent"
+            >
+              <Download className="mr-2" size={20} />
+              Download CV
+            </Button> */}
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center pb-8 md:pb-0">
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 md:gap-8 text-center pb-8 md:pb-0 px-4">
               <div>
-                <div className="text-3xl font-bold text-green-400">50+</div>
-                <div className="text-muted-foreground">Projects Completed</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400">50+</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Websites Built</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-400">5+</div>
-                <div className="text-muted-foreground">Years Experience</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400">40%</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Avg. Conversion Increase</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-400">30+</div>
-                <div className="text-muted-foreground">Happy Clients</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400">30 Days</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Average Delivery</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-400">24/7</div>
-                <div className="text-muted-foreground">Support</div>
+                <div className="text-xl sm:text-2xl md:text-3xl font-bold text-green-400">100%</div>
+                <div className="text-xs sm:text-sm text-muted-foreground">Client Satisfaction</div>
               </div>
             </div>
           </div>

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Jvad | Full-Stack Developer & Web Designer",
     description: "Professional full-stack developer specializing in React, Next.js, and modern web technologies. Creating exceptional digital experiences that drive business growth.",
-    url: "https://jvad.dev",
+    url: "https://jvad.net",
     siteName: "Jvad Portfolio",
     images: [
       {
