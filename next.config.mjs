@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "media.discordapp.net",
+        hostname: "i.ibb.co",
       },
     ],
     formats: ['image/webp', 'image/avif'],

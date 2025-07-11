@@ -7,6 +7,9 @@ import { Testimonials } from "@/components/sections/testimonials";
 import { Contact } from "@/components/sections/contact";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
+import { FAQ } from "@/components/sections/faq";
+import { AboutCTA } from "@/components/sections/about-cta";
+import { Pricing } from "@/components/sections/pricing";
 
 export const metadata: Metadata = {
   title: "Full-Stack Developer & Web Designer",
@@ -60,6 +63,9 @@ export default function Home() {
         <Services />
         <Portfolio />
         {/* <Testimonials /> */}
+        <Pricing />
+        <FAQ />
+        <AboutCTA />
         <Contact />
       </main>
       <Footer />

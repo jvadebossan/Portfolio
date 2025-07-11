@@ -97,7 +97,7 @@ export function Contact() {
                         placeholder="Your Name"
                         value={formData.name}
                         onChange={handleChange}
-                        className="bg-muted border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500"
+                        className="bg-gray-800/50 border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500 focus:bg-gray-800"
                         required
                       />
                     </div>
@@ -108,7 +108,7 @@ export function Contact() {
                         placeholder="Your Email"
                         value={formData.email}
                         onChange={handleChange}
-                        className="bg-muted border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500"
+                        className="bg-gray-800/50 border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500 focus:bg-gray-800"
                         required
                       />
                     </div>
@@ -120,7 +120,7 @@ export function Contact() {
                       placeholder="Subject"
                       value={formData.subject}
                       onChange={handleChange}
-                      className="bg-muted border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500"
+                      className="bg-gray-800/50 border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500 focus:bg-gray-800"
                       required
                     />
                   </div>
@@ -132,7 +132,7 @@ export function Contact() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={6}
-                      className="bg-muted border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500 resize-none"
+                      className="bg-gray-800/50 border-green-500/30 text-foreground placeholder:text-muted-foreground focus:border-green-500 focus:bg-gray-800 resize-none"
                       required
                     />
                   </div>

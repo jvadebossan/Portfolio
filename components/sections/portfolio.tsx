@@ -18,7 +18,7 @@ export function Portfolio() {
       title: "Engineer Portfolio",
       description:
         "Personal portfolio for a software and electrical engineer",
-      image: "https://cdn.discordapp.com/attachments/814662021383061535/1390182238099865751/image.png?ex=686a9f59&is=68694dd9&hm=50235c8da5134d45553fe1762c53184a40c31c404c9a7bb6ad2fe3fe2dc2f4c4",
+      image: "https://i.ibb.co/qM0pG1wk/asdasdasdasdadasdasd.png",
       technologies: ["React.js", "Tailwind CSS", "SEO"],
       liveUrl: "https://ffschneider.netlify.app",
     },
@@ -26,7 +26,7 @@ export function Portfolio() {
       title: "Business Website",
       description:
         "Virtual reality business website with 3D models and interactive elements",
-      image: "https://cdn.discordapp.com/attachments/814662021383061535/1390182556091289703/image.png?ex=686a9fa5&is=68694e25&hm=240f5d6c766332fa5d11d37659e7081f5c996dde520bb494e7196d0fdb5e581a",
+      image: "https://i.ibb.co/mLkj1kD/aasdasdasdasdasd.png",
       technologies: ["React", "Three.js", "Tailwind CSS", "SEO", "3D Models"],
       liveUrl: "https://vysionvr.com",
     },
