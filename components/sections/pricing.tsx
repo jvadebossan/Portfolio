@@ -9,7 +9,7 @@ export function Pricing() {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Pricing from <span className="text-green-400">£450</span>
+            Pricing from <span className="text-green-400">$450</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Transparent pricing with no hidden costs. Choose the plan that fits your business needs.
@@ -21,7 +21,7 @@ export function Pricing() {
           <Card className="bg-card/50 border-green-500/20 hover:border-green-500/40 transition-all duration-300">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl font-bold text-foreground">Basic Website</CardTitle>
-              <div className="text-4xl font-bold text-green-400 mb-2">£450</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">$450</div>
               <p className="text-muted-foreground">Perfect for small businesses</p>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -66,7 +66,7 @@ export function Pricing() {
             </div>
             <CardHeader className="text-center pt-6">
               <CardTitle className="text-2xl font-bold text-foreground">Professional</CardTitle>
-              <div className="text-4xl font-bold text-green-400 mb-2">£850</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">$850</div>
               <p className="text-muted-foreground">Best for growing businesses</p>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -109,7 +109,7 @@ export function Pricing() {
           <Card className="bg-card/50 border-green-500/20 hover:border-green-500/40 transition-all duration-300">
             <CardHeader className="text-center">
               <CardTitle className="text-2xl font-bold text-foreground">E-commerce</CardTitle>
-              <div className="text-4xl font-bold text-green-400 mb-2">£1,250</div>
+              <div className="text-4xl font-bold text-green-400 mb-2">$1,250</div>
               <p className="text-muted-foreground">For online stores</p>
             </CardHeader>
             <CardContent className="space-y-4">

@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
             <div className="text-2xl font-bold text-green-400 mb-4">
-              {"<Dev/>"}
+              {"<Jvad/>"}
             </div>
             <p className="text-muted-foreground mb-4">
               Full-stack developer creating exceptional digital experiences that
@@ -33,7 +33,7 @@ export function Footer() {
                 <Twitter size={20} />
               </a> */}
               <a
-                href="mailto:jvdebossan@gmail.com?subject=Contact%20from%20Website"
+                href="mailto:contact@jvad.online?subject=Contact%20from%20Website"
                 className="text-muted-foreground hover:text-green-400 transition-colors"
               >
                 <Mail size={20} />
@@ -70,7 +70,7 @@ export function Footer() {
           <div>
             <h3 className="text-foreground font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-400">
-              <li className="text-muted-foreground">jvdebossan@gmail.com</li>
+              <li className="text-muted-foreground">contact@jvad.online</li>
               <li className="text-muted-foreground">+55 27 99802-2214</li>
               <li className="text-muted-foreground">Available for freelance work</li>
             </ul>

@@ -33,7 +33,7 @@ export function StructuredData() {
       "@type": "ContactPoint",
       "telephone": "+55-27-99802-2214",
       "contactType": "customer service",
-      "email": "jvdebossan@gmail.com"
+      "email": "contact@jvad.online"
     }
   };
 
@@ -83,7 +83,7 @@ export function OrganizationStructuredData() {
       "@type": "ContactPoint",
       "telephone": "+55-27-99802-2214",
       "contactType": "customer service",
-      "email": "jvdebossan@gmail.com"
+      "email": "contact@jvad.online"
     },
     "sameAs": [
       "https://github.com/jvadebossan",

@@ -13,7 +13,7 @@ export function FAQ() {
   const faqData = [
     {
       question: "How much does a website cost?",
-      answer: "Our websites start at £450 for a complete, high-converting website. This includes design, development, SEO optimization, and 3 months of support. We also offer payment plans to make it more affordable."
+      answer: "Our websites start at $450 for a complete, high-converting website. This includes design, development, SEO optimization, and 3 months of support. We also offer payment plans to make it more affordable."
     },
     {
       question: "How long does it take to build my website?",
@@ -21,7 +21,7 @@ export function FAQ() {
     },
     {
       question: "Do you provide ongoing support?",
-      answer: "Yes! We offer 3 months of free support after launch, and then ongoing maintenance packages starting at £27/month. This includes updates, security patches, and technical support."
+      answer: "Yes! We offer 3 months of free support after launch, and then ongoing maintenance packages starting at $27/month. This includes updates, security patches, and technical support."
     },
     {
       question: "Will my website be mobile-friendly?",

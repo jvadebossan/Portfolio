@@ -156,7 +156,7 @@ export function Contact() {
                   <Mail className="w-6 h-6 text-green-400 mr-3" />
                   <div>
                     <h3 className="text-card-foreground font-semibold">Email</h3>
-                    <p className="text-muted-foreground">jvdebossan@gmail.com</p>
+                    <p className="text-muted-foreground">contact@jvad.online</p>
                   </div>
                 </div>
               </CardContent>
